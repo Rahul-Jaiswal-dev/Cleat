@@ -1,0 +1,46 @@
+{
+  "name": "CLEAT",
+  "description": "Command Line Editing Application Tidbit",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://bentleycs.visualstudio.com/Siemens/_git/ps5-hackathon"
+  },
+  "scripts": {
+    "build": "tsc 1>&2",
+    "clean": "rimraf lib coverage .rush package-deps.json",
+    "start": "node lib/main.js"
+  },
+  "keywords": [
+    "Bentley",
+    "iModel",
+    "iModel.js",
+    "iTwin",
+    "DigitalTwins"
+  ],
+  "author": {
+    "name": "Bentley Systems, Inc.",
+    "url": "http://www.bentley.com"
+  },
+  "dependencies": {
+    "@bentley/bentleyjs-core": "2.11.0",
+    "@bentley/geometry-core": "2.11.0",
+    "@bentley/imodeljs-backend": "2.11.0",
+    "@bentley/imodeljs-common": "2.11.0",
+    "@bentley/itwin-client": "2.11.0",
+    "@bentley/imodelhub-client": "2.11.0",
+    "@bentley/backend-itwin-client": "2.11.0",
+    "@bentley/ecschema-metadata": "2.11.0",
+    "@bentley/frontend-authorization-client": "2.11.0",
+    "@bentley/rbac-client": "2.11.0",
+    "@bentley/telemetry-client": "2.11.0",
+    "@bentley/usage-logging-client": "2.11.0",
+    "@bentley/imodeljs-i18n": "2.11.0"
+  },
+  "devDependencies": {
+    "@bentley/build-tools": "2.8.0",
+    "ts-node": "8.10.2",
+    "typescript": "4.1.3"
+  }
+}

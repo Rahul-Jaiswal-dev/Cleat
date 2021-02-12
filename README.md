@@ -1,0 +1,1 @@
+CLEAT - Command Line Editing Application Tidbit

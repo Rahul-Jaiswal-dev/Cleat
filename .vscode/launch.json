@@ -1,0 +1,14 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "npm start ../edit_scripts/test_edits.json",
+      "name": "Run npm start with test edits",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
